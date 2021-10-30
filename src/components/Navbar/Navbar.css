@@ -1,0 +1,39 @@
+.navbar {
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    color: white;
+    padding-top: 50px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    list-style: none;
+    font-size: 18px;
+}
+
+.list-item {
+    margin: 25px;
+    cursor: pointer;
+}
+.list-item a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.navbar-logo {
+    padding:10px;
+    margin-bottom: 20px;
+}
+
+.navbar-icon {
+    margin-right: 10px;
+}
+
+.nav-active {
+    color: tomato;
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.link {
+    text-decoration: none
+}
+
+.view {
+    background-image: linear-gradient(to top right, rgba(222,111,88,0.8),rgba(111, 175, 140, 0.8));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+
+}
+
+.nav {
+    flex: 1;
+}
+
+.boards {
+    flex: 4;
+    margin-top: 50px;
+}

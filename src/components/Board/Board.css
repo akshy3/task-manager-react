@@ -1,0 +1,41 @@
+.column {
+    width: 30%;
+}
+
+.droppable-col {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 10px 0 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    margin-bottom: 10px;
+    background-color: #333;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item.dragging {
+    opacity: 0.5;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.delete-icon {
+    cursor: pointer;
+}
+
+.BoardTitle {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
